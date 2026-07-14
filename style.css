@@ -1,0 +1,62 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navbar container */
+.nav10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  font-family: sans-serif;
+}
+
+/* Logo styling */
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Turn the list horizontal using Flexbox */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+/* Add spacing between links */
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Style the link text */
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+.nav-links a:hover {
+  color: #ffd700;
+}
+header {
+font-family: system-ui;
+text-align: center;
+background-color: gray;
+}
+.anti-piracy {
+background-color: black;
+}
+button {
+color: white;
+width: 20;
+height: 30;
+background-color: gray;
+}
+
